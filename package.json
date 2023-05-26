@@ -1,0 +1,23 @@
+{
+  "name": "inn",
+  "version": "1.0.0",
+  "description": "CI/CD/TEST",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inn1108/CI-CD-New-Test.git"
+  },
+  "keywords": [
+    "build",
+    "text"
+  ],
+  "author": "jinwei pei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inn1108/CI-CD-New-Test/issues"
+  },
+  "homepage": "https://github.com/inn1108/CI-CD-New-Test#readme"
+}
