@@ -1,0 +1,20 @@
+on:
+  push:
+    branches:
+      - ‘*’
+
+jobs:
+  build-CI-CD-and-test:
+    steps:
+      - name: Checkout code
+        
+      - name: Run tests
+        
+steps:
+  - name: Checkout code
+    uses: actions/checkout@v2
+
+
+steps:
+  - name: Install dependencies
+    run: npm install
