@@ -1,20 +1,18 @@
 on:
   push:
     branches:
-      - ‘*’
+      - '*'
 
 jobs:
   build-CI-CD-and-test:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
       - name: Run tests
-        
-steps:
-  - name: Checkout code
-    uses: actions/checkout@v2
+        run: npm test
 
-
-steps:
-  - name: Install dependencies
-    run: npm install
